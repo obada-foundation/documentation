@@ -46,6 +46,11 @@ For this data to be interoperable, common terms for "product type" and "manufact
 
 These list will be extended as needed.
 
+## Encryption
+This information needs to be hashed/encrypted, with only the *hash* being stored on-chain.   Any person with knowledge of the device details (serial number etc) could easily identify it's associated blockchain asset token by following the protocol.
+
+A standard hash/encryption methodology needs to be defined.  (sha512?)
+
 
 
 
