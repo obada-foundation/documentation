@@ -17,7 +17,7 @@ desktop\_computer-asustek\_computer\_inc-1000h-94oaaq021116
 
 For this data to be interoperable, common terms for "product type" and "manufacturer name" must be used.  We propose these standard terms.
 
-# Product Types
+## Product Types
 - computer_accessory
 - computer_part
 - consumer_electronics
@@ -31,7 +31,7 @@ For this data to be interoperable, common terms for "product type" and "manufact
 - scrap
 - storage_device
 
-#Manufacturer Names
+## Manufacturer Names
 - apple
 - cisco
 - dell
