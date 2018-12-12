@@ -1,4 +1,4 @@
-# Unique deviceID format
+# Creating a unique deviceID
 
 There is no standard way to uniquely identify most electronic devices. A common approach is to contatenate the following fields as shown:
 
@@ -12,6 +12,37 @@ There is no standard way to uniquely identify most electronic devices. A common 
 **Example:**
 
 desktop\_computer-asustek\_computer\_inc-1000h-94oaaq021116
+
+For this data to be interoperable, common terms for "product type" and "manufacturer name" must be used.  We propose these standard terms.
+
+**Product Types**
+- computer_accessory
+- computer_part
+- consumer_electronics
+- desktop_computer
+- display
+- laptop
+- laptop_part
+- mobile_device
+- networking_device
+- printer
+- scrap
+- storage_device
+
+**Manufacturer Names**
+- apple
+- cisco
+- dell
+- fujitsu
+- hp
+- ibm
+- intel
+- lenovo
+- oracle
+- samsung
+- toshiba
+
+These list will be extended as needed.
 
 
 
