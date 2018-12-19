@@ -1,12 +1,23 @@
 ## Need a minimum List of statuses for device_statusID
 
-Objective:  Provide research and accountability and compliance in a separate standard identifiable field.
-- simple keywrods
-- should last "forever"
+Device Status:  i.e. new, refurbished, stolen, disposed.
+
+Many systems and standards exist for naming the possible "device statuses."  The possible statuses do not span all device categories, for example cell phones can be "locked" but power supplies can not.  Any data format for communicating device status can be used in OBADA, as long as a "link" to the standard is added.   
+
+But researchers need a way to analyze reuse and recyling rates, authorities need to be able to analyze for compliance, and users need to check if a device is stolen or has been disposed (like a car title marked "salvage")  before they buy it.  The granular information will (likely be) privatized and consolidating data spanning multple standards will require "translation/lookup tables" making it difficult at best.
+
+To enable basic research and compliance, OBADA proposes a separate field reporting the most basic status information to allow a researcher/authority/user to determine the status of any device without revealing any detailed device or a identifying the owner or transfer history.
+
+This also enables protocol rules and smart contracts to be written acting on a device status.   For example allowing no further trades of devices marked "stolen" should be impossible to trade.
+
+So a short list of simple keywords to communicate the most basic details is proposed.  Short because they must generalize (and be translatable) from the more granular statuses provided by standards.   Simple because they should be as unchanging as possible.  "Disposed" will still be "disposed" in ten years.
 
 * Proposed List
-- new = 1
-- refurbished = 2
-- disposed = 3
-- stolen
+1. new 
+2. used
+3. refurbished
+4. disposed
+5. stolen
+6. etc..  (please update/add to this)
 
+To be discussed: Possible that only a specific authority could set (or maybe just sign) a device status.  For example anyone could mark a device "disposed" but a signature from an authority could be added to validate it was "disposed properly".
