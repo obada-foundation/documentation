@@ -8,3 +8,5 @@ Objective:  Provide research and accountability and compliance in a separate sta
 - new = 1
 - refurbished = 2
 - disposed = 3
+- stolen
+
