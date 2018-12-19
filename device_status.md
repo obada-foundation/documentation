@@ -2,9 +2,15 @@
 
 Device Status:  i.e. new, refurbished, stolen, disposed.
 
-Many systems and standards exist for naming the possible "device statuses."  The possible statuses do not span all device categories, for example cell phones can be "locked" but power supplies can not.  Any data format for communicating device status can be used in OBADA, as long as a "link" to the standard is added.   
+Many naming conventions exist for labeling "device statuses" and not all product categories have the same needs.   For example cell phones may have a status of "locked" but power supplies probably will not.  So the granular data sets provided by the existing conventions comes in multiple formats without consistent labeling.
 
-But researchers need a way to analyze reuse and recyling rates, authorities need to be able to analyze for compliance, and users need to check if a device is stolen or has been disposed (like a car title marked "salvage")  before they buy it.  The granular information will (likely be) privatized and consolidating data spanning multple standards will require "translation/lookup tables" making it difficult at best.
+Researchers need a way to analyze reuse and recyling rates, authorities need to be able to analyze for compliance, and users need to check if a device is stolen or has been disposed (like a car title marked "salvage") before they buy it.  
+
+OBADA supports any data format for recording device status, as long as a "link" to the standard is added.   
+
+
+standards will require "translation/lookup tables" making it difficult at best.But 
+
 
 To enable basic research and compliance, OBADA proposes a separate field reporting the most basic status information to allow a researcher/authority/user to determine the status of any device without revealing any detailed device or a identifying the owner or transfer history.
 
