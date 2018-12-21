@@ -1,19 +1,24 @@
-# Creating a unique deviceID
+# Creating a deviceID and a unique deviceID
 
-## Unique Device ID Format
+## Device ID Format
 
-There is no standard way to uniquely identify most electronic devices. A common approach is to concatenate the following fields as shown:
+There is no standard way to uniquely identify most electronic devices types. One approach is to concatenate the following fields as shown:
 
-**product\_type-manufacturer-part(model)\_number-serial\_number**
+**product\_type-manufacturer-part(model)\_number-serial=
 
 - product type: desktop
 - manufacturer: asustek\_computer\_inc
 - part/model: 1000h
-- serialnumber: 94oaaq021116
 
-**Example:**
+This gives us a fairly unique identifier.  **Example:** desktop\_computer-asustek\_computer\_inc-1000h-94oaaq021116
 
-desktop\_computer-asustek\_computer\_inc-1000h-94oaaq021116
+##Unique Device ID
+
+Adding serial_number (or IMEI in the case of mobile devices) to generate a unique ID for that product.   
+
+**Example** product\_type-manufacturer-part(model)\_number-serial=- serialnumber: 94oaaq021116
+
+**Standard Lookups**
 
 For this data to be interoperable, common terms for "product type" and "manufacturer name" must be used.  We propose these standard terms.
 
