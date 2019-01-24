@@ -5,7 +5,7 @@ Details from open discussion:
 - Don Riley stated that there are over 100 potential functional for mobile devices.  40-50 are commonly used. 
 - There is no standard format for diagnostic software reports.
 
-We started a "standardized" list of repair tests (to allow repair software can read/write to the blockchain).  Should be generic enough to allow a repair test in any product type
+We started a "standardized" list of repair tests (to allow repair software can read/write to the blockchain).  This list should be generic to allow for repair data of any product type
 
 ID | product type | property
 -- | ------------- | ---------
@@ -13,9 +13,7 @@ ID | product type | property
 2 | hard disk drive | number of hours 
 3 | laptop | data- tatus (is-it-wiped?)
 
-
 Don sent this list of mobile device tests after the meeting:
-
 
 System  | Component
 ------- | ---------   
@@ -49,6 +47,8 @@ Sensors  | Accelerometer
 . | Pressure Sensor
 . | Light Sensor
 . | Proximity Sensor
+
+Next step is to further define the requirement and this list.
 
 
 
