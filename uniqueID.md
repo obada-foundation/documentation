@@ -7,6 +7,18 @@ For example "APPLE-A1822-WG09HWX88E"
 
 **10/9/19 At WG tech call we agreed to this approach.**
 
+
+# Don't use serial number of products that use a different type of ID..
+
+Some types of products have a unique ID no considered the serial number.  For example a cell phone has an IMEI number.  The suggestion was to use these category specific ID's instead of serial number.
+
+**Jan 19 We agreed to this approach and the following categories were suggested for consideration at the mobility call.**
+
+- mobile - use IMEI as UID
+- networking - use Mac Address as UID (concatenate all Mac addresses if multiple)
+- telecom - CLEI codes (14 digit unique codes
+
+
 ## Hash / Encryption
 
 This information needs to be hashed/encrypted, with only the *hash* being stored on-chain.   Any person with knowledge of the device details (serial number etc) could easily identify it's associated blockchain asset token by following the protocol.
@@ -15,7 +27,7 @@ This information needs to be hashed/encrypted, with only the *hash* being stored
 
 ## Standardized data keys
 
-For this data to be interoperable, common terms for "product type" and "manufacturer name" must be used.  We propose these standard terms.
+There are no standard lists of manufacturer names.   We proposed the following as standard terms for a generic translation from any naming scheme in other systems.
 
 **Dec 18: At WG group we agreed to use this list for now (in absence of any other)
 **Jan 19: On standards call it was suggested we use a numbered list.   To be discussed at RLA conf.
