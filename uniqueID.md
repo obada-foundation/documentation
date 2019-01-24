@@ -22,7 +22,7 @@ Add a serial_number (or IMEI in the case of mobile devices) to the end of the de
 
 This information needs to be hashed/encrypted, with only the *hash* being stored on-chain.   Any person with knowledge of the device details (serial number etc) could easily identify it's associated blockchain asset token by following the protocol.
 
-A standard hash/encryption methodology needs to be defined.  (sha512?)
+**1/09/19:  In the tech discussion at end of working group call we agreed to use SHA-256.** 
 
 ## Standardized data keys
 
