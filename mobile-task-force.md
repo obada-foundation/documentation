@@ -1,21 +1,20 @@
 ## Mobile task force call - Jan 17
 
+Details from open discussion:
 - User requirement:  blockchain should be able to answer questions like "who is the carrier" and "is it locked?".   
-- on Riley stated that there are over 100 potential functional for mobile devices.  40-50 are commonly used. 
-- diagnostic software does not have any standard format for these reports.
+- Don Riley stated that there are over 100 potential functional for mobile devices.  40-50 are commonly used. 
+- There is no standard format for diagnostic software reports.
 
-We created a "standardized" list of repair tests.   
+We started a "standardized" list of repair tests (to allow repair software can read/write to the blockchain).  Should be generic enough to allow a repair test in any product type
 
-ID | Property | Property
+ID | product type | property
 -- | ------------- | ---------
 1 | mobile phone | lock status (is it locked?) 
 2 | hard disk drive | number of hours 
 3 | laptop | data- tatus (is-it-wiped?)
 
 
-So repair software can read/write test results to the blockchain with the ID's on this list.
-
-After the meeting, Don sent a more detailed list
+Don sent this list of mobile device tests after the meeting:
 
 
 System  | Component
