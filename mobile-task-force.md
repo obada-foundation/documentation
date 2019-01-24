@@ -18,10 +18,10 @@ So repair software can read/write test results to the blockchain with the ID's o
 After the meeting, Don sent a more detailed list
 
 
-System  | Component | Value | Data 
-------- | --------- | ----  | ----  
+System  | Component
+------- | ---------   
 Display | Display 
- | Pixels | # pixels good | 650  
+ | Pixels
  | Touchscreen -- Paint 
  | Backlight
  | 3D Touch
@@ -33,11 +33,11 @@ Buttons    | Home
    | Cameras	
    | Front
    | Flash
-Battery    | Battery Health
-   | Wireless Charging
-Audio     | Loudspeaker
-    | Receiver Speaker
-    | Main Microphone
+Battery | Battery Health 
+    | Wireless Charging 
+Audio| Loudspeaker 
+    | Receiver Speaker 
+    | Main Microphone 
     | Secondary Microphone
     | Vibration
 Connectivity  | 	SIM Card
