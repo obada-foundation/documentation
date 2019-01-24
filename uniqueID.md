@@ -1,22 +1,11 @@
 # Creating a deviceID and a unique deviceID
 
-## Device ID Format
 
-There is no standard way to uniquely identify most electronic devices types. One approach is to concatenate the following fields as shown to give us a unique identifier.
+There is no standard way to create a unique ID (from a database perspective) for an electronic device.   Serial numbers can't be used because they aren't unique across manufacturers.  To create a unique database ID, a common pratice of inventory management systems for IT resellers is to concatenate the product's manufacturer, part(model), and serial number.
 
-**product\_type-manufacturer-part(model)**
+For example "APPLE-A1822-WG09HWX88E"
 
-- product type: desktop
-- manufacturer: asustek\_computer\_inc
-- part/model: 1000h
-
-**Example:** desktop\_computer-asustek\_computer\_inc-1000h-94oaaq021116
-
-## Unique Device ID
-
-Add a serial_number (or IMEI in the case of mobile devices) to the end of the deviceID to generate a unique ID for a specific device.
-
-**Example** product\_type-manufacturer-part(model)\_number-serial=- serialnumber: 94oaaq021116
+**10/9/19 At WG tech call we agreed to this approach.**
 
 ## Hash / Encryption
 
@@ -28,7 +17,9 @@ This information needs to be hashed/encrypted, with only the *hash* being stored
 
 For this data to be interoperable, common terms for "product type" and "manufacturer name" must be used.  We propose these standard terms.
 
-Or perhaps a numbered list would be better to avoid any concerns over naming
+**Dec 18: At WG group we agreed to use this list for now (in absence of any other)
+**Jan 19: On standards call it was suggested we use a numbered list.   To be discussed at RLA conf.
+
 
 **Product Types**
 - computer_accessory
