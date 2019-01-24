@@ -21,35 +21,35 @@ After the meeting, Don sent a more detailed list
 System  | Component
 ------- | ---------   
 Display | Display 
- | Pixels
- | Touchscreen -- Paint 
- | Backlight
- | 3D Touch
+.       | Pixels
+.        | Touchscreen -- Paint 
+.        | Backlight
+.        | 3D Touch
 Buttons    | Home
-   | Power
-   | Audio
-   | Back Button
-   | Task Manager
-   | Cameras	
-   | Front
-   | Flash
-Battery | Battery Health 
-    | Wireless Charging 
+.   | Power
+.   | Audio
+.   | Back Button
+.   | Task Manager
+.   | Cameras	
+.   | Front
+.   | Flash
+Battery | Health 
+.    | Wireless Charging 
 Audio| Loudspeaker 
-    | Receiver Speaker 
-    | Main Microphone 
-    | Secondary Microphone
-    | Vibration
+.    | Receiver Speaker 
+.    | Main Microphone 
+.    | Secondary Microphone
+.    | Vibration
 Connectivity  | 	SIM Card
- | 	USB & Charger Plug
- | 	WiFI
- | 	Bluetooth
+. | 	USB & Charger Plug
+. | 	WiFI
+. | 	Bluetooth
 Sensors  | Accelerometer
- | Gyroscope
- | Magnetometer
- | Pressure Sensor
- | Light Sensor
- | Proximity Sensor
+. | Gyroscope
+. | Magnetometer
+. | Pressure Sensor
+. | Light Sensor
+. | Proximity Sensor
 
 
 
