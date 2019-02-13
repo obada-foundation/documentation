@@ -66,8 +66,11 @@ In the following sub-sections we define each use-case in more detail.
 Things to consider:
 - Disposition status
 - Has the device been stolen
-- Is the device locked by a carrier
+- Is the device locked by a carrier.
 - If the device has been disposed.
+
+### How to get the information?
+- Use an "authorization key" from the owner to authorize this information to be on the blockhain (**specify**)? Problem: how to reconcile with the Researcher, that wants to access the data.
 
 ## 1.2 Quality of a device
 *Define list of quality values (eReuse is working on it)*
@@ -79,8 +82,12 @@ Links:
 
 - [Devicehub's device schema](http://devicehub.ereuse.org/devices.html)
 
+*Working...*
+
 ## Device identifiers
 - Mobile: IMEI as SN
 - Networking: Mac as SN
 - Telecom: CLEI codes (any page to reffer to? See CTIA)
+...
+
 
