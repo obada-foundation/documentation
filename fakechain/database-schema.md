@@ -1,4 +1,4 @@
-# Registar Database Specification
+# Fakechain Database Specification
 
 
 
