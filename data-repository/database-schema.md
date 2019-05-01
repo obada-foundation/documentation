@@ -138,15 +138,22 @@ Collection contains transactions for obada assets
 
 ```javascript
 {
-    "_id" : ObjectId("5c98fdea051078000f6a1b22"),
-    "asset_id" : "c7bbd680-4f18-11e9-a696-0242ac120003",
-    "label_id" : "",
-    "metadata_url" : "http://metadata.obada.io/c7bbd680-4f18-11e9-a696-0242ac120003",
-    "device_info_url" : "http://metadata.obada.io/device-info/c7bbd680-4f18-11e9-a696-0242ac120003",
-    "signatures" : [ 
-        "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJyZWdpc3RyYXIub2JhZGEuaW8iLCJ2ZXJpZmljYXRpb25fdXJsIjoiaHR0cHM6XC9cL3JlZ2lzdHJhci5vYmFkYS5pb1wvdmVyaWZ5IiwidmVyaWZpY2F0aW9uX2h0dHBfbWV0aG9kIjoiUE9TVCIsInZlcmlmaWNhdGlvbl9odHRwX3Zhcl9uYW1lIjoic2lnbmF0dXJlIiwiaWF0IjoxNTUxMzk2NDM4LCJhdWQiOiI2M2QwMGM1Mi0zYmIwLTExZTktOWNjYS0wMjQyYWMxMjAwMDMiLCJyZWdpc3RyYXJfaWQiOiI5ZGI2MGI4NjVjNjg1OWQ2ODUzZDBiNjIzYzgyM2EyNiJ9.StIeyoLiLkM46D8nrWTDRakpWNYWorUZX6jyLuW7LWLn5jeHfWa7bmEoUYeQmJUj4UEP-KwZbyIrvxcZ3-2aPHTVMFw-JE66bXz9_vtJpft_bbewPwK42xHSEZzea2NkgzZCRDoJNUDbUaqJuHERx9pzvcQTAb1Clgw0KEIKMjhG8152u4YBoFjgcWbQ4AhgGnsL-EiNyyyG35HmhFRRoYzMDe8ETZ169dgtVlu8ZxOU88Hh6b97TWthkzSbIILN_cy0UWC0JCMIvVedu_loZUPzzrkSvacgDe6e-s3usIKvK3HR5lgVbDatiA1rf2-DdUMmC548YrjcAks6g2PX4qgCLRq8S_gJSWvzWmUAwvK5CiRG2KCGrKkNp2DhZt8xt27NWefJcfJMG47Qd1aLMizvpvx87U4VARR8L8kyR2ymtZTbwFAzBFlyBnOF8cJ3IoW1GkemdlS1fEY5n1DOSi6vXJkWfPIy0-GN49mwxydydalEn4OC9_37Qeff4UqRA2QIrMRRkpRrbCTQVxwAjY13gGAlURAXKVKLdiwSV2-8PA63n_xcszF0IlQmgk62aIrVjdbEKhT80nW0Chbf52mOXJj5QRAZdkKX2TH-dgvZXlcLW0SJWZU8nGSQSsdxv3Sltu59skL4_GfBeQGDi4j5-5WplY7miXu5R8kLzqg"
+    "_id" : ObjectId("5c672189408b1200104fd195"),
+    "asset_id" : "9e25d17a-3160-11e9-84b7-0242ac120003",
+    "serial_number" : "SN123456",
+    "part_number" : "",
+    "model_number" : "AP3435646",
+    "manufacturer" : "Apple",
+    "categories" : [ 
+        "phones", 
+        "smartphones"
     ],
-    "updated_at" : ISODate("2019-03-25T16:12:26.000Z"),
-    "created_at" : ISODate("2019-03-25T16:12:26.000Z")
+    "condition" : "A",
+    "description" : "",
+    "price" : 100.5,
+    "currency_code" : "USD",
+    "location_country_code" : "US",
+    "updated_at" : ISODate("2019-02-15T20:31:05.000Z"),
+    "created_at" : ISODate("2019-02-15T20:31:05.000Z")
 }
 ```
