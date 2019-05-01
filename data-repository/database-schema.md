@@ -90,20 +90,20 @@ Collection contains changes log for obada assets. The functionality is done on t
 
 ```javascript
 {
-    "_id" : ObjectId("5c7028ed8d160c0013496d05"),
+    "_id" : ObjectId("5c75cdcb315a090012010bc3"),
     "old_values" : "[]",
-    "new_values" : "{\"asset_id\":\"5082d334-36c2-11e9-95b1-0242ac120003\",\"label_id\":\"qr_code\",\"metadata_url\":\"http:\\/\\/metadata.obada.io\\/5082d334-36c2-11e9-95b1-0242ac120003\",\"device_info_url\":\"http:\\/\\/metadata.obada.io\\/device-info\\/5082d334-36c2-11e9-95b1-0242ac120003\",\"_id\":{\"$oid\":\"5c7028ed8d160c0013496d04\"}}",
+    "new_values" : "{\"asset_id\":\"859f993e-3a1f-11e9-b873-0242ac120003\",\"_id\":{\"$oid\":\"5c75cdcb315a090012010bc2\"}}",
     "event" : "created",
-    "auditable_id" : "5c7028ed8d160c0013496d04",
-    "auditable_type" : "App\\Entities\\Transaction",
+    "auditable_id" : "5c75cdcb315a090012010bc2",
+    "auditable_type" : "App\\Entities\\Metadata",
     "user_id" : null,
     "user_type" : null,
-    "url" : "http://blockchain.obada.io/v0.0.1?",
+    "url" : "http://metadata.obada.io/?",
     "ip_address" : "167.99.112.146",
     "user_agent" : "GuzzleHttp/6.3.3 curl/7.61.1 PHP/7.1.21",
     "tags" : null,
-    "updated_at" : ISODate("2019-02-22T16:53:01.000Z"),
-    "created_at" : ISODate("2019-02-22T16:53:01.000Z")
+    "updated_at" : ISODate("2019-02-26T23:37:47.000Z"),
+    "created_at" : ISODate("2019-02-26T23:37:47.000Z")
 }
 ```
 
