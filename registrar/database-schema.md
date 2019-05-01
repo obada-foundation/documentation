@@ -37,9 +37,16 @@ Contains users registered by registrar.
 
 #### Document example
 
-| _id                                  | obada_user_id                        | name                   | compliance_status | created_at               | updated_at               |
-| ------------------------------------ | ------------------------------------ | ---------------------- | ----------------- | ------------------------ | ------------------------ |
-| ObjectId("5c9cde80dac5af001427f923") | 6889ad66-5168-11e9-bb7a-0242ac120003 | internal_id-mar28_TEST | 0                 | 2019-03-28T14:47:28.000Z | 2019-03-28T14:47:28.000Z |
+```javascript
+{
+    "_id" : ObjectId("5c9cde80dac5af001427f923"),
+    "obada_user_id" : "6889ad66-5168-11e9-bb7a-0242ac120003",
+    "name" : "internal_id-mar28_TEST",
+    "compliance_status" : 0,
+    "updated_at" : ISODate("2019-03-28T14:47:28.000Z"),
+    "created_at" : ISODate("2019-03-28T14:47:28.000Z")
+}
+```
 
 
 
@@ -49,11 +56,40 @@ Contains users registered by registrar.
 
 ### Schema
 
+### Document example
+
+```javascript
+{
+    "_id" : ObjectId("5c3fb8d0d2e01300070ffb42"),
+    "private_key" : "-----BEGIN PRIVATE KEY-----\nMIIJ...IpJEau2TgH7ee\nB1NSbKGtlS2Ruyeb3qwPEEqziupbEA==\n-----END PRIVATE KEY-----\n",
+    "public_key" : "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQE...MCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+    "registrar_id" : "9db60b865c6859d6853d0b623c823a26",
+    "updated_at" : ISODate("2019-01-16T23:05:52.000Z"),
+    "created_at" : ISODate("2019-01-16T23:05:52.000Z")
+}
+```
+
+
+
 ## migrations
 
 ### Perpose
 
 ### Schema
+
+### Document example
+
+```javascript
+{
+    "_id" : ObjectId("5c98fa50dac5af001f5847a2"),
+    "migration" : "2019_03_25_155133_change_compliant_property_to_compliance_status",
+    "batch" : 1
+}
+```
+
+
+
+
 
 
 
