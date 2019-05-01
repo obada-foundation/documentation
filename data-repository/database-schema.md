@@ -117,16 +117,22 @@ Collection contains transactions for obada assets
 
 #### Columns
 
-| **column_position** | **column_name** | **column_type** | description                                                  |
-| ------------------- | --------------- | --------------- | ------------------------------------------------------------ |
-| 1                   | _id             | Object          | Internal MongoDB identifier.<br />Read more information [here](https://docs.mongodb.com/manual/reference/method/ObjectId/) . |
-| 2                   | asset_id        | String          | *UUID* (Universally Unique Identifier).<br /> Generated with [ramsey/uuid](https://github.com/ramsey/uuid) library |
-| 3                   | label_id        | String          | Custom identifier that can be added by asset owner for the personal tracking purpose. |
-| 4                   | metadata_url    | String          | The link to get the additional data about asset              |
-| 5                   | device_info_url | String          | The link to get the device info information                  |
-| 6                   | signatures      | Array           | The collection of registrar signatures (JWT tokens)          |
-| 7                   | created_at      | Date            | Datetime of creation in UTC format                           |
-| 8                   | updated_at      | Date            | Datetime of last update in UTC format                        |
+| **column_position** | **column_name**       | **column_type** | description                                                  |
+| ------------------- | --------------------- | --------------- | ------------------------------------------------------------ |
+| 1                   | _id                   | Object          | Internal MongoDB identifier.<br />Read more information [here](https://docs.mongodb.com/manual/reference/method/ObjectId/) . |
+| 2                   | asset_id              | String          | *UUID* (Universally Unique Identifier).<br /> Generated with [ramsey/uuid](https://github.com/ramsey/uuid) library |
+| 3                   | serial_number         | String          |                                                              |
+| 4                   | part_number           | String          |                                                              |
+| 5                   | model_number          | String          |                                                              |
+| 6                   | manufacturer          | String          |                                                              |
+| 7                   | categories            | Array           |                                                              |
+| 8                   | condition             | String          |                                                              |
+| 9                   | description           | String          |                                                              |
+| 10                  | price                 | Double          |                                                              |
+| 11                  | currency_code         | String          |                                                              |
+| 12                  | location_country_code | String          |                                                              |
+| 13                  | updated_at            | Date            | Datetime of last update in UTC format                        |
+| 14                  | created_at            | Date            | Datetime of creation in UTC format                           |
 
 #### Indexes
 
