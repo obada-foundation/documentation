@@ -14,7 +14,7 @@
 
 ### Perpose
 
-Collection contains transactions for obada assets
+Collection contains dynamic characteristcs of the Obada asset
 
 ### Table Schema
 
