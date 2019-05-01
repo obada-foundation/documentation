@@ -54,7 +54,20 @@ Contains users registered by registrar.
 
 ### Perpose
 
+Contains settings for registrar setup. For example private and public keys for creating and verifying JWT tokens.
+
 ### Schema
+
+| **column_position** | **column_name**   | **column_type** | description                                                  |
+| ------------------- | ----------------- | --------------- | ------------------------------------------------------------ |
+| 1                   | _id               | Object          | Internal MongoDB identifier.<br />Read more information [here](https://docs.mongodb.com/manual/reference/method/ObjectId/) . |
+| 2                   | obada_user_id     | String          | *UUID* (Universally Unique Identifier).<br /> Generated with [ramsey/uuid](https://github.com/ramsey/uuid) library |
+| 3                   | name              | String          | The name of registrar user.                                  |
+| 4                   | compliance_status | Int32           | At this moment has only two statuses: <br /> * 0 is not compaint<br /> * 1 is compaint |
+| 5                   | created_at        | Date            | Datetime of creation in UTC format                           |
+| 6                   | updated_at        | Date            | Datetime of last update in UTC format                        |
+
+#### 
 
 ### Document example
 
@@ -75,7 +88,20 @@ Contains users registered by registrar.
 
 ### Perpose
 
+https://laravel.com/docs/5.8/migrations
+
 ### Schema
+
+#### 
+
+| **column_position** | **column_name**   | **column_type** | description                                                  |
+| ------------------- | ----------------- | --------------- | ------------------------------------------------------------ |
+| 1                   | _id               | Object          | Internal MongoDB identifier.<br />Read more information [here](https://docs.mongodb.com/manual/reference/method/ObjectId/) . |
+| 2                   | obada_user_id     | String          | *UUID* (Universally Unique Identifier).<br /> Generated with [ramsey/uuid](https://github.com/ramsey/uuid) library |
+| 3                   | name              | String          | The name of registrar user.                                  |
+| 4                   | compliance_status | Int32           | At this moment has only two statuses: <br /> * 0 is not compaint<br /> * 1 is compaint |
+| 5                   | created_at        | Date            | Datetime of creation in UTC format                           |
+| 6                   | updated_at        | Date            | Datetime of last update in UTC format                        |
 
 ### Document example
 
