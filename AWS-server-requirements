@@ -1,0 +1,14 @@
+Summary from email string:
+
+## from Andrii:
+
+* We have a t2.small EC2 instance with ubuntu 20.04 on it. 
+* Additionally, we need a QLDB database so the IAM role configured for us must allow us to access it. 
+* According to disk space for EC2, right now we have 100 GB EBS (a new type gp3). 
+* According to firewall configuration, we need ports 22, 80, and 443. 
+* Basically, that's all we need for the hosting node right now. 
+* If you going to create a separate account for us, then I can configure everything with the Ansible playbook so you don't need to do anything except providing to me access tokens.
+* Additionally have had few other apps that have dedicated instances but I don't know if we want to host them in the Usody AWS account.
+
+# From David
+@Rohi, Can you ask Andrii what settings Santiago should do to? 
