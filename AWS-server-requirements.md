@@ -1,6 +1,6 @@
-Summary from email string:
+# AWS Server requirements (for setting up an Obada node)
 
-## from Andrii:
+## from Andrii (email)
 
 * We have a t2.small EC2 instance with ubuntu 20.04 on it. 
 * Additionally, we need a QLDB database so the IAM role configured for us must allow us to access it. 
@@ -10,5 +10,5 @@ Summary from email string:
 * If you going to create a separate account for us, then I can configure everything with the Ansible playbook so you don't need to do anything except providing to me access tokens.
 * Additionally have had few other apps that have dedicated instances but I don't know if we want to host them in the Usody AWS account.
 
-# From David
+## From David
 @Rohi, Can you ask Andrii what settings Santiago should do to? 
